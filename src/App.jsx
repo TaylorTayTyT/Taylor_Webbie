@@ -7,14 +7,14 @@ function App() {
       Taylor Nguyen 
       </div>
       <div>
-        <button className='nav'>
-          hi
+        <button className='nav button-74'>
+          home
         </button>
-        <button className='nav'>
-          hi
+        <button className='nav button-74'>
+          about
         </button>
-        <button className='nav'>
-          hi
+        <button className='nav button-74'>
+          contact
         </button>
         </div>
     </div>
