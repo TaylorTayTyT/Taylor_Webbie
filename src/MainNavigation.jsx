@@ -11,6 +11,7 @@ export default function MainNavigation() {
                 <span>
                     <b>Frontend Developer</b><br/>
                     {desc}
+                    
                 </span>
         </div>
         </div>

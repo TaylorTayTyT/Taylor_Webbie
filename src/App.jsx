@@ -8,13 +8,7 @@ function App() {
       </div>
       <div>
         <button className='nav button-74'>
-          home
-        </button>
-        <button className='nav button-74'>
-          about
-        </button>
-        <button className='nav button-74'>
-          contact
+          Contact!
         </button>
         </div>
     </div>

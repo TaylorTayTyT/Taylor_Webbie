@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 .picOfMe{
     aspect-ratio: 1 / 1;
     max-height: 50%;
     border-radius: 50%;
+    border: 5px solid black
 }
 .image-container{
     display: flex;
@@ -17,12 +20,12 @@
     display: flex;
     aspect-ratio: 1 / 1;
     width: 50%;
-    background-color: yellow;
     justify-content: center;
     justify-self: start;
     align-items: center;
-    background: radial-gradient(circle, rgba(116,54,249,1) 0%, rgba(116,54,249,0) 60%,rgba(116,54,249,0) 100%);
+    background: radial-gradient(circle, rgba(116,54,249,1) 0%, rgba(116,54,249,0) 70%,rgba(116,54,249,0) 100%);
 }
+
 
 .description{
     display: flex;
@@ -31,10 +34,15 @@
     align-self: stretch;
     text-align: center;
     justify-content: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .description > span {
     align-self: center;
+    font-size: 3svh;
 }
+
+
+
 
 
