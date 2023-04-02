@@ -11,11 +11,17 @@
   height: fit-content;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: dotted 0.2rem black;
 }
 
 .name{
   font-family: 'Quicksand', sans-serif;
   justify-self: space-between;
+  border: solid 1px black;
+  padding: 0.5rem;
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .nav{
   font-size: 1rem;
