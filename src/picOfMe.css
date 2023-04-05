@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
 .picOfMe{
     aspect-ratio: 1 / 1;
     max-height: 50%;
@@ -8,11 +8,9 @@
 }
 .image-container{
     display: flex;
-    width: 100svw;
-    height: 100svh;
+    width: 100%;
     align-items: center;
     justify-content: space-around;
-    max-width: 98svw;
     flex-wrap: wrap;
     text-align: center;
     padding-top: 1rem;
@@ -24,10 +22,8 @@
     justify-content: center;
     justify-self: start;
     align-items: center;
-    
     background: radial-gradient(circle, rgba(116,54,249,1) 20%, rgba(116,54,249,0) 70%);;
 }
-
 
 .description{
     display: flex;
@@ -41,12 +37,20 @@
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 5%;
-
+    margin: 1rem;
 }
 
 .description > span {
     align-self: center;
     font-size: 3svh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 @keyframes flare{
@@ -57,6 +61,3 @@
         background: radial-gradient(circle, rgba(116,54,249,1) 0%, rgba(116,54,249,0) 70%);
     }
 }
-
-
-

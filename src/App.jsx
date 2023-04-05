@@ -4,12 +4,10 @@ function App() {
   return (
     <div className="navigation_bar">
       <div className='name'>
-      Taylor Nguyen 
+      <b>Taylor Nguyen </b>
       </div>
-      <div>
-        <button className='nav button-74'>
-          Contact!
-        </button>
+      <div className='contact'>
+      <b>Contact Info: </b><br/>taylornguyen904@gmail.com
         </div>
     </div>
   )

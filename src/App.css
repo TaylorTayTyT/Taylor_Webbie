@@ -18,11 +18,14 @@
 .name{
   font-family: 'Quicksand', sans-serif;
   justify-self: space-between;
-  border: solid 1px black;
-  padding: 0.5rem;
-  border-radius: 5%;
-  background-color: rgba(0, 0, 0, 0.1);
 }
+
+.contact{
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  margin: 1rem;
+}
+
 .nav{
   font-size: 1rem;
   padding: 2rem;
