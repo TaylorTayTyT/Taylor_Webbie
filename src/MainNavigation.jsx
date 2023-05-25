@@ -2,7 +2,7 @@ import picOfMe from "./pictures/picOfMe.jpg";
 import "./picOfMe.css"
 import { useState } from "react";
 export default function MainNavigation() {
-    const intro = (<div>Hi, I'm Taylor! I'm a front-end developer based in California! Nice to meet you!</div>)
+    const intro = (<div>Hi, I'm Taylor! I'm a college student studing Computer Science and East Asian Studies at Johns Hopkins University! Nice to meet you!</div>)
     const courses = (<div><b>Courses: </b><br/><br/>Data Structures<br/> Fullstack Javascript <br/> Algorithms <br/> Computer Vision</div>)
     const all_desc = [intro, courses]
 
@@ -23,7 +23,7 @@ export default function MainNavigation() {
                 <span>
                     <b>Frontend Developer</b><br /><br />
                     {all_desc[description]}<br /><br />
-                    <button onClick={onClick} className="material-symbols-outlined">arrow_forward</button>
+                    <button id = "description-nav" onClick={onClick} className="material-symbols-outlined">arrow_forward</button>
                 </span>
             </div>
 
